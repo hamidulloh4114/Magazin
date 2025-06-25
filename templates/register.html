@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,19 +11,19 @@
 		
 		<!--fonts-->
 		<!--bootstrap-->
-			 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+			 <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
 		<!--coustom css-->
-			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+			<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css"/>
         <!--shop-kart-js-->
-        <script src="js/simpleCart.min.js"></script>
+        <script src="{% static 'js/simpleCart.min.js' %}"></script>
 		<!--default-js-->
-			<script src="js/jquery-2.1.4.min.js"></script>
+			<script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
 		<!--bootstrap-js-->
-			<script src="js/bootstrap.min.js"></script>
+			<script src="{% static 'js/bootstrap.min.js' %}"></script>
 		<!--script-->
          <!-- FlexSlider -->
-            <script src="js/imagezoom.js"></script>
-              <script defer src="js/jquery.flexslider.js"></script>
+            <script src="{% static 'js/imagezoom.js' %}"></script>
+              <script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
             <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
             <script>
@@ -102,10 +103,10 @@
                                                 </ul>
                                             </div>
                                             <div class="col-sm-4 menu-img-pad">
-                        <a href="#"><img src="images/menu1.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href="#"><img src="{% static 'images/menu1.jpg' %}" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                             <div class="col-sm-4 menu-img-pad">
-                        <a href="#"><img src="images/menu2.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href="#"><img src="{% static 'images/menu2.jpg' %}" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                         </div>
                                     </ul>
@@ -126,7 +127,7 @@
                                                 </ul>
                                             </div>
                                             <div class="col-sm-6">
-                        <a href="#"><img src="images/menu3.jpg" alt="/" class="img-rsponsive men-img-wid" /></a>
+                        <a href="#"><img src="{% static 'images/menu3.jpg' %}" alt="/" class="img-rsponsive men-img-wid" /></a>
                                             </div>
                                         </div>
                                     </ul>
